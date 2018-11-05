@@ -14,7 +14,7 @@ There are many tools to provide various levels of git functionality
 on Windows, from replicating the CLI tools available in the Unix based
 OSes to the easy to install and use GUI centric options.
 
-Since Windows has started playing so nicely with Linux and Microsoft's
+Since Windows has started playing so nicely with Linux and with Microsoft's
 acquisition of Github there's every chance we will see more native Windows tools
 becoming available but until then:
 
@@ -28,7 +28,7 @@ is just brilliant.
 
 ![](images/screenshots/01-GitKrakenMainScreen.png?raw=true)
 
-It is feature and option rich, with a bit of digging you could make it look and
+It is feature and option rich, plus with a bit of digging you could make it look and
 work just like you want it to. It is very easy to just start using at a very
 basic level and learn some of the more advanced features along the way.
 
@@ -49,7 +49,7 @@ This tool is from the Atlassian team, it seems equally easy to use and
 just as comprehensive. In truth I've not used it anywhere near as much as
 GitKraken but so far so good.
 
-![](images/screenshots/02-GitKrakenMainScreen.png?raw=true)
+![](images/screenshots/02-SourcetreeMainScreen.png?raw=true)
 
 It looks and feels like a more traditional Windows application, this might
 be more to some tastes. It certainly seems good at displaying
