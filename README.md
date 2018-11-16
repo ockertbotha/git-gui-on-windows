@@ -5,6 +5,8 @@ For simple installation and ease of use let's look at:
 1. [GitKraken](#1-gitkraken)
 2. [Sourcetree](#2-sourcetree)
 3. [Eclipse-Egit](3-eclipse-egit)
+4. [Git for Windows](4-Git-for-Windows)
+5. [Git Extension](5-Git-Extensions)
 
 ## Introduction
 You're interested in using git? You know and use Windows? You want the setup to
@@ -55,14 +57,10 @@ It looks and feels like a more traditional Windows application, this might
 be more to some tastes. It certainly seems good at displaying
 the most important information where a Windows user would expect it.
 
-You will need to create an account at
-[Sourcetree](https://www.sourcetreeapp.com/) and download the relevant installer
-from here. I have only tried the Windows client, and this after having tried
-several other options, Sourcetree didn't need me to do anything more than I had
-already done for the others but unlike with GitKraken where I can confirm it
-truly is a one-stop installation I'm not sure about Sourcetree, the support
-documentation indicate that it is but I'll update this information when I do
-my next fresh Windows installation.
+Annoyingly you will also need to create an account at
+[Sourcetree](https://www.sourcetreeapp.com/) to access the software but at least
+it's free to use from there onwards. The installer will detect if you git
+installed and will offer to download and install it for you.
 
 The only negative I'll aim at Sourcetree is not having a Linux client. But for
 now I'm treating it's Linux absence as a reason to stay CLI fit on that OS.
@@ -74,16 +72,41 @@ good. So if you already use Eclipse on Windows then start with
 [Egit](https://www.eclipse.org/egit/) it might be all you need!
 
 For beginners there is a portion of this
-[guide](https://github.com/ockertbotha/java-dev-on-ubuntu#4-version-control-with-git-and-eclipse-egit) that covers using Egit, even thought it is on Unbuntu, the Egit part should
+[guide](https://github.com/ockertbotha/java-dev-on-ubuntu#4-version-control-with-git-and-eclipse-egit)
+that covers using Egit, even thought it is on Unbuntu, the Egit part should
 still be relevant on Windows.
 
 ![](images/screenshots/03-EclipseEgitMainScreen.png?raw=true)
+
+## 4. Git for Windows
+For those who don't use Eclipse or who want separate access to git and don't
+like being forced to register an account for it (yip looking at you GitKraken
+and Sourcetree!) then consider using
+[Git for Windows](https://gitforwindows.org/) it's not quite the one click
+install and single integrated application but still installs pretty easily and
+provides some decent GUI tools, even if they don't look as pretty as some of the
+others:
+
+![](images/screenshots/04-GitForWindows.png?raw=true)
+
+## 5. Git Extensions
+It would be remis of me at this point not to mention
+[Git Extensions](https://sourceforge.net/projects/gitextensions/) this integrates
+a set of pretty decent right-click accessible tools into Windows, a lot like
+Tortoise did in the CVS days of yore:
+
+![](images/screenshots/05-GitExtensionsMenu.png?raw=true)
+
+Although it seems pretty solid, it's reliance on
+[KDiff3](https://sourceforge.net/projects/kdiff3/files/) which itself seems to be
+orphaned leaves you with having to fiddle a bit more. Either find a way to
+change the diff and merge tool or download and install
+[KDiff3](https://sourceforge.net/projects/kdiff3/files/), but once setup you do
+get good functionality:
+
+![](images/screenshots/06-GitExtensionsWindows.png?raw=true)
 
 ## Summary
 There are of course more tools than this and a quick search may reveal that one
 of the tools you currently use has a git plugin or equivalent, this is also an
 ever changing landscape so keep up to date.
-
-The three tools in this list are a great place to start using git and on Windows
-at least they really simplify the installation and bring it inline with what
-a Windows user is more familiar with.
