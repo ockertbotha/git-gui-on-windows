@@ -4,9 +4,9 @@ Which git GUI tools to use on Windows?
 For simple installation and ease of use let's look at:
 1. [GitKraken](#1-gitkraken)
 2. [Sourcetree](#2-sourcetree)
-3. [Eclipse-Egit](3-eclipse-egit)
-4. [Git for Windows](4-Git-for-Windows)
-5. [Git Extension](5-Git-Extensions)
+3. [Eclipse-Egit](#3-eclipse-egit)
+4. [Git for Windows](#4-Git-for-Windows)
+5. [Git Extension](#5-Git-Extensions)
 
 ## Introduction
 You're interested in using git? You know and use Windows? You want the setup to
