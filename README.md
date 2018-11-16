@@ -31,7 +31,7 @@ is just brilliant.
 ![](images/screenshots/01-GitKrakenMainScreen.png?raw=true)
 
 It is feature and option rich, plus with a bit of digging you could make it look and
-work just like you want it to. It is very easy to just start using at a very
+work just the way you want. It is very easy to just start using at a very
 basic level and learn some of the more advanced features along the way.
 
 You will need to create an account at
@@ -59,8 +59,8 @@ the most important information where a Windows user would expect it.
 
 Annoyingly you will also need to create an account at
 [Sourcetree](https://www.sourcetreeapp.com/) to access the software but at least
-it's free to use from there onwards. The installer will detect if you git
-installed and will offer to download and install it for you.
+it's free to use from there onwards. The installer will detect if you have git
+installed and if you don't it will offer to download and install it for you.
 
 The only negative I'll aim at Sourcetree is not having a Linux client. But for
 now I'm treating it's Linux absence as a reason to stay CLI fit on that OS.
